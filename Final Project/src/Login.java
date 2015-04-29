@@ -36,14 +36,14 @@ public class Login extends JFrame
 			textPanel= new JPanel();
 			frame = new JFrame("Login");
 			frame.setLayout(new BorderLayout());
-			frame.setSize(new Dimension(700,700));
+			frame.setSize(new Dimension(300,300));
 			buttonPanel.setLayout(new GridLayout(3,2));
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			Random colorNumber= new Random(396475909);
 			 //System.out.println(number.nextInt());
 			frame.setBackground(new Color(colorNumber.nextInt()));
 			
-			textbox= new JTextField(50);
+			textbox= new JTextField(20);
 			MainPassword.setFont(new Font(" MS San Serif", Font.BOLD, 17));
 
 			textPanel.add(textbox);
@@ -79,6 +79,7 @@ public class Login extends JFrame
 			});
 			buttonPanel.add(JButtonNumber);
 			new clearAction();
+			frame.setLocation(600,200);
 
 			frame.add(buttonPanel, BorderLayout.CENTER);
 			frame.add(textPanel, BorderLayout.NORTH);
