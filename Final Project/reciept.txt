@@ -1,0 +1,7 @@
+CASH RECIEPT 
+Wed Apr 29 15:37:28 EDT 2015 
+ 
+ SubTotalCost 0.0
+ Tax 5.43
+ Total 5.43
+ Thanks for shopping and have a nice day!!
